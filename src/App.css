@@ -13,6 +13,10 @@ body {
 }
 
 
+.faqCard .btn::selection{
+  background: none;
+}
+
 .titlee {
   font-family: 'Poiret One', 'sans-serif';
 }

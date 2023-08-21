@@ -79,14 +79,14 @@ const Home = () => {
         <div className="relative w-max">
           <img draggable="false" src={img2} className='w-full max-w-[750px] rounded-xl' />
           <div className="absolute duration-150 ease-in-out hover:scale-110 text-[.5rem] font-semibold backdrop-blur-sm bg-[#0e0e0e41] top-0 -left-2 shadow-md text-white rounded-lg rounded-tl-none mt-5 w-[150px] p-2">
-            <p className="text-md md:text-lg md:mb-1 md:border-b font-bold">Connect</p>
+            <p className="text-md md:text-lg md:mb-1 md:border-b pb-2 font-bold">CONNECT</p>
             Link up with young hustlers like you from different parts of the world</div>
 
           <div className="absolute duration-150 ease-in-out hover:scale-110 text-[.5rem] font-semibold backdrop-blur-sm bg-[#1558c33e] top-1/2 -translate-y-1/2 -right-2 shadow-md rounded-tr-none text-[#ffe9e9] rounded-md mt-5 w-[150px] p-2">
-            <p className="text-md md:text-lg md:mb-1 md:border-b font-bold">EARN</p>
-            EARN income from your acquired skill. Receive signals from our community  </div>
+            <p className="text-md md:text-lg md:mb-1 md:border-b pb-2 font-bold">EARN</p>
+            Generate income from your acquired skill. Receive signals from our community  </div>
           <div className="absolute duration-150 ease-in-out hover:scale-110 text-[.5rem] font-semibold backdrop-blur-sm bg-[#ffffff41] bottom-4 left-4 shadow-md text-black rounded-tl-none rounded-lg mt-5 w-[150px] p-2">
-            <p className="text-md md:text-lg md:mb-1 md:border-b font-bold text-[#266bd980] border-[black]">BOOST</p>
+            <p className="text-md md:text-lg md:mb-1 md:border-b pb-2 font-bold text-[#266bd980] border-[black]">BOOST</p>
             Promote your business on our community platforms and take it to the NEXT level  </div>
         </div>
       </div>
@@ -132,13 +132,15 @@ const Home = () => {
         <SkillCard img={social_icon} cost="1,500" title="Social Media Management" body="" />
       </div>
 
-      <div className="flexbackdrop: mb-10 w-full flex-col items-center md:border-r md:border-r-gray-400">
+      <div className="flex mb-10 w-full flex-col items-center md:border-r md:border-r-gray-400">
           <p className="titlee w-full text-center p-5  mt-8 text-2xl font-bold ">Didn't find any of your Interests?</p>
 
-          <p className="w-full text-gray-500 text-center px-5 max-w-[800px]">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
+          <p className="w-full text-gray-500 text-center px-5 max-w-[800px] text-sm">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
           </p>
-          <i className="text-gray-500 my-10 text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
+        <p className="my-5 w-full text-center">
+        <i className="bg-gray-200 p-3 rounded-full text-gray-500 text-sm text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
           </i>
+        </p>
         </div>
         <FAQ />
 

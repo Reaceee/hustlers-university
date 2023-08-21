@@ -16,8 +16,16 @@ const FAQ = () => {
           answer: "No specific prerequisites are required to join Hustlers University. Our programs are designed to cater to individuals with various skill levels and backgrounds."
         },
         {
+          question: "Can I enroll for multiple skill acquisitions?",
+          answer: "Definitely! having multiple skills to offer is 100% encourageable as it makes way for more earnings. So long as you can keep up with all skills at once."
+        },
+        {
           question: "What kind of skills will I learn?",
           answer: "Our curriculum covers a wide range of practical skills, including entrepreneurship, communication, financial literacy, digital marketing, problem-solving, and more. The skills you gain will help you thrive in the modern world."
+        },
+        {
+          question: "How much does it cost?",
+          answer: "The prices of the courses vary from as low as NGN 1000 - 2000, so s to make it affordable and encourage flexible choices. "
         },
         {
           question: "How are the courses structured?",
@@ -59,7 +67,7 @@ const FAQ = () => {
 
         <div className="flex w-full justify-center">
              
-        <p className="text-gray-500 text-center px-5 my-10 max-w-[800px]"> If you have any other inquiries, kindly contact us on WhatsApp. Remember to indicate that you have seen this page and you didn't find any similar to yours.</p>
+        <p className="text-gray-500 text-center text-sm px-5 my-10 max-w-[800px]"> If you have any other inquiries, kindly contact us on WhatsApp. Remember to indicate that you have seen this page and you didn't find any similar to yours.</p>
          </div>
         </>
     )
