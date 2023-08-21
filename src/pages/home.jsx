@@ -132,10 +132,10 @@ const Home = () => {
         <SkillCard img={social_icon} cost="1,500" title="Social Media Management" body="" />
       </div>
 
-      <div className="flex mb-10 w-full flex-col items-center md:border-r md:border-r-gray-400">
+      <div className="flexbackdrop: mb-10 w-full flex-col items-center md:border-r md:border-r-gray-400">
           <p className="titlee w-full text-center p-5  mt-8 text-2xl font-bold ">Didn't find any of your Interests?</p>
 
-          <p className="text-gray-500 text-center px-5 max-w-[800px]">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
+          <p className="w-full text-gray-500 text-center px-5 max-w-[800px]">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
           </p>
           <i className="text-gray-500 my-10 text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
           </i>

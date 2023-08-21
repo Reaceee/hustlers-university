@@ -57,8 +57,10 @@ const FAQ = () => {
                 ))}
             </div>
 
-            
-            <p className="text-gray-500 text-center px-5 my-10 max-w-[800px]"> If you have any other inquiries, kindly contact us on WhatsApp. Remember to indicate that you have seen this page and you didn't find any similar to yours.</p>
+        <div className="flex w-full justify-center">
+             
+        <p className="text-gray-500 text-center px-5 my-10 max-w-[800px]"> If you have any other inquiries, kindly contact us on WhatsApp. Remember to indicate that you have seen this page and you didn't find any similar to yours.</p>
+         </div>
         </>
     )
 }
