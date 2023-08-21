@@ -7,6 +7,7 @@ import FAQ from "../pages/FAQ.jsx";
 import members from '../assets/Images/members.png'
 import tutors from '../assets/Images/tutors.png'
 import resources from '../assets/Images/resources.png'
+import arrows from '../assets/Images/arrows.svg'
 
 import SkillCard from '../components/skill-card.jsx'
 import forex_icon from '../assets/Images/forex-icon.png'
@@ -17,6 +18,10 @@ import social_icon from '../assets/Images/social-icon.png'
 import graphic_icon from '../assets/Images/graphic-icon.png'
 const Home = () => {
 
+  function ScrollTo(where) {
+    document.querySelector(`.${where}`).scrollIntoView()
+    scrollBy(0, -80)
+  }
 
   return (
     <>
@@ -26,12 +31,14 @@ const Home = () => {
           <p className="text-sm max-w-[550px]">Unlock Your Potential: Join the Hustlers' Academy and Discover the Path to Independence and Success!</p>
 
           <div className="w-full items-center justify-center flex px-5 gap-5 flex-col md:flex-row">
-            <div className="start font-semibold border border-[#ffffff30] bg-[#ffffffc4] w-full md:w-max px-5 cursor-pointer rounded-full p-3 hover:bg-white text-sm text-black backdrop-blur-sm duration-100">
+            <a href="https://forms.gle/wBzENhhC9dtJmgbAA" className="start font-semibold border border-[#ffffff30] bg-[#ffffffc4] w-full md:w-max px-5 cursor-pointer rounded-full p-3 hover:bg-white text-sm text-black backdrop-blur-sm duration-100">
               Start your Hustle
-            </div>
-            <div className="px-5 font-semibold cursor-pointer rounded-full p-3 text-sm hover:bg-white border border-[#ffffff30] bg-[#ffffff20] w-full md:w-max hover:text-black backdrop-blur-sm duration-100">
+            </a>
+            <div onClick={() => {  ScrollTo('skills') }} className="px-5 font-semibold cursor-pointer rounded-full p-3 text-sm hover:bg-white border border-[#ffffff30] bg-[#ffffff20] w-full md:w-max hover:text-black backdrop-blur-sm duration-100">
               Explore Skills
             </div>
+
+            <img draggable="false" src={arrows} alt="" className="w-10" />
           </div>
         </div>
       </div>
@@ -133,16 +140,16 @@ const Home = () => {
       </div>
 
       <div className="flex mb-10 w-full flex-col items-center md:border-r md:border-r-gray-400">
-          <p className="titlee w-full text-center p-5  mt-8 text-2xl font-bold ">Didn't find any of your Interests?</p>
+        <p className="titlee w-full text-center p-5  mt-8 text-2xl font-bold ">Didn't find any of your Interests?</p>
 
-          <p className="w-full text-gray-500 text-center px-5 max-w-[800px] text-sm">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
-          </p>
+        <p className="w-full text-gray-500 text-center px-5 max-w-[800px] text-sm">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
+        </p>
         <p className="my-5 w-full text-center">
-        <i className="md:bg-gray-200 p-3 rounded-full text-gray-500 text-sm text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
+          <i className="md:bg-gray-200 p-3 rounded-full text-gray-500 text-sm text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
           </i>
         </p>
-        </div>
-        <FAQ />
+      </div>
+      <FAQ />
 
     </>
   )

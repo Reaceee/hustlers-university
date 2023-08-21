@@ -7,7 +7,6 @@ const Footer = () => {
 
   function ScrollTo(where) {
     document.querySelector(`.${where}`).scrollIntoView()
-    setSideBar(0)
     scrollBy(0, -100)
   }
   return (
