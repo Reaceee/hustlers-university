@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <>
-      <div style={{ backgroundImage: 'url(' + img3 + ')' }} className="hero h-[80vh] w-full bg-[#462d20] bg-no-repeat bg-blend-overlay bg-cover flex items-center justify-center">
+      <div style={{ backgroundImage: 'url(' + img3 + ')' }} className="hero h-[80vh] w-full bg-[#462d20] bg-no-repeat bg-blend-overlay bg-center bg-cover flex items-center justify-center">
         <div className="hero-content text-white p-5 text-center flex flex-col items-center gap-5">
           <p className="titlee text-3xl font-extrabold border-b border-white w-full max-w-[400px] p-4">Be Your Own Boss</p>
           <p className="text-sm max-w-[550px]">Unlock Your Potential: Join the Hustlers' Academy and Discover the Path to Independence and Success!</p>
@@ -138,7 +138,7 @@ const Home = () => {
           <p className="w-full text-gray-500 text-center px-5 max-w-[800px] text-sm">There's nothing to worry about. We understand that there are thounsands of hustles out there. That doesn't stop us from promoting yours as a member and increase your connections.
           </p>
         <p className="my-5 w-full text-center">
-        <i className="bg-gray-200 p-3 rounded-full text-gray-500 text-sm text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
+        <i className="md:bg-gray-200 p-3 rounded-full text-gray-500 text-sm text-center px-5 max-w-[800px]">Contact us below to find out how we can <b>BLOW YOUR HUSTLE</b>.
           </i>
         </p>
         </div>
